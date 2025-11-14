@@ -1,4 +1,4 @@
-fetch("../docs/json/tabela.json")
+fetch("json/tabela.json")
   .then(response => {
     if(!response.ok) throw new Error("Erro carregando json")
     return response.json()
