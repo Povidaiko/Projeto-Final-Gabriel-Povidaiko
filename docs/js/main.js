@@ -8,7 +8,7 @@ window.onload = function(){
                 $("#cadastroEnderecoMain").load("../components/cadastro-endereco/layout.html");
                 $("#cadastroEstudantilMain").load("../components/cadastro-estudantil/layout.html");
                 $("#tabelaDinamicaMain").load("../components/tabela/layout.html");
-                $("#graficosMain").load("../components/graficos/layout.html");
+                $("#graficosMain").load("./components/graficos/layout.html");
                 $("#carouselUnicoMain").load("../components/carousel-unico/layout.html");
                 $("#carousel3Main").load("../components/carousel-3/layout.html");
                 $("#landPageMain").load("../pages/prototipo/index.html");
