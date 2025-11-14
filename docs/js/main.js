@@ -2,18 +2,18 @@ var graficosJaForamCriados = false;
 
 window.onload = function(){
         $(document).ready(function(){
-                $("#headerMain").load("../components/header/layout.html");
-                $("#aberturaMain").load("../components/abertura/layout.html");
-                $("#cadastroPessoalMain").load("../components/cadastro-pessoal/layout.html");
-                $("#cadastroEnderecoMain").load("../components/cadastro-endereco/layout.html");
-                $("#cadastroEstudantilMain").load("../components/cadastro-estudantil/layout.html");
-                $("#tabelaDinamicaMain").load("../components/tabela/layout.html");
+                $("#headerMain").load("./components/header/layout.html");
+                $("#aberturaMain").load("./components/abertura/layout.html");
+                $("#cadastroPessoalMain").load("./components/cadastro-pessoal/layout.html");
+                $("#cadastroEnderecoMain").load("./components/cadastro-endereco/layout.html");
+                $("#cadastroEstudantilMain").load("./components/cadastro-estudantil/layout.html");
+                $("#tabelaDinamicaMain").load("./components/tabela/layout.html");
                 $("#graficosMain").load("./components/graficos/layout.html");
-                $("#carouselUnicoMain").load("../components/carousel-unico/layout.html");
-                $("#carousel3Main").load("../components/carousel-3/layout.html");
-                $("#landPageMain").load("../pages/prototipo/index.html");
-                $("#localizacaoMain").load("../components/localizacao/layout.html");
-                $("#footerMain").load("../components/footer/layout.html")
+                $("#carouselUnicoMain").load("./components/carousel-unico/layout.html");
+                $("#carousel3Main").load("./components/carousel-3/layout.html");
+                $("#landPageMain").load("./pages/prototipo/index.html");
+                $("#localizacaoMain").load("./components/localizacao/layout.html");
+                $("#footerMain").load("./components/footer/layout.html")
         })
 
         $("#cadastroPessoalMain").hide();
